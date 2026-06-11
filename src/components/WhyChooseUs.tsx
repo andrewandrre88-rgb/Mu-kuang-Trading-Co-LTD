@@ -70,8 +70,8 @@ export default function WhyChooseUs() {
                 className="w-full h-80 object-cover mt-8 shadow-sm border border-gray-100"
               />
               <img 
-                src="https://images.unsplash.com/photo-1616423640778-28d1b53229bd?q=80&w=2692&auto=format&fit=crop" 
-                alt="Cargo Shipping" 
+                src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2670&auto=format&fit=crop" 
+                alt="Warehouse and Logistics" 
                 className="w-full h-80 object-cover shadow-sm border border-gray-100"
               />
             </div>
