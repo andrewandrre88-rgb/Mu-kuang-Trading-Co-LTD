@@ -1,0 +1,6 @@
+{
+  "name": "Guangzhou Mu Kuang Trading Co.",
+  "description": "International trading company providing sourcing, import & export solutions in China.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
