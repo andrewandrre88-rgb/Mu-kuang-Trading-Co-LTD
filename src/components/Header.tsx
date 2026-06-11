@@ -16,10 +16,6 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const toggleLanguage = () => {
-    setLanguage(language === 'en' ? 'zh' : 'en');
-  };
-
   const navLinks = [
     { name: t.nav.home, href: '#home' },
     { name: t.nav.about, href: '#about' },
@@ -61,10 +57,12 @@ export default function Header() {
 
         {/* Desktop Actions */}
         <div className="hidden lg:flex items-center gap-6">
-          <div className="flex gap-2 text-xs text-white/60 font-semibold cursor-pointer" onClick={toggleLanguage}>
-            <span className={language === 'en' ? 'text-white' : 'hover:text-white transition-colors'}>EN</span>
+          <div className="flex gap-2 text-xs text-white/60 font-semibold cursor-pointer select-none">
+            <span className={language === 'en' ? 'text-white' : 'hover:text-white transition-colors'} onClick={() => setLanguage('en')}>EN</span>
             <span>|</span>
-            <span className={language === 'zh' ? 'text-white' : 'hover:text-white transition-colors'}>CN</span>
+            <span className={language === 'zh' ? 'text-white' : 'hover:text-white transition-colors'} onClick={() => setLanguage('zh')}>CN</span>
+            <span>|</span>
+            <span className={language === 'ur' ? 'text-white' : 'hover:text-white transition-colors'} onClick={() => setLanguage('ur')}>UR</span>
           </div>
           <a
             href="#contact"
@@ -76,10 +74,12 @@ export default function Header() {
 
         {/* Mobile Toggle */}
         <div className="flex items-center lg:hidden space-x-4">
-          <div className="flex gap-2 text-xs text-white/60 font-semibold cursor-pointer" onClick={toggleLanguage}>
-            <span className={language === 'en' ? 'text-white' : ''}>EN</span>
+          <div className="flex gap-2 text-xs text-white/60 font-semibold cursor-pointer select-none">
+            <span className={language === 'en' ? 'text-white' : ''} onClick={() => setLanguage('en')}>EN</span>
             <span>|</span>
-            <span className={language === 'zh' ? 'text-white' : ''}>CN</span>
+            <span className={language === 'zh' ? 'text-white' : ''} onClick={() => setLanguage('zh')}>CN</span>
+            <span>|</span>
+            <span className={language === 'ur' ? 'text-white' : ''} onClick={() => setLanguage('ur')}>UR</span>
           </div>
           
           <button

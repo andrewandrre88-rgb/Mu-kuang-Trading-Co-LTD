@@ -12,6 +12,16 @@ const I18nContext = createContext<I18nContextType | undefined>(undefined);
 export const I18nProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [language, setLanguage] = useState<Language>('en');
 
+  // Update document direction and font based on language
+  React.useEffect(() => {
+    document.documentElement.dir = language === 'ur' ? 'rtl' : 'ltr';
+    if (language === 'ur') {
+      document.body.classList.add('font-urdu');
+    } else {
+      document.body.classList.remove('font-urdu');
+    }
+  }, [language]);
+
   const value = {
     language,
     setLanguage,

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -15,6 +15,10 @@ body {
   background-color: var(--color-background);
   color: #1a1a1a;
   -webkit-font-smoothing: antialiased;
+}
+
+body.font-urdu {
+  font-family: 'Noto Nastaliq Urdu', 'Inter', sans-serif;
 }
 
 html {
