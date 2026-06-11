@@ -32,11 +32,11 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-[10px] uppercase tracking-widest text-secondary mb-6">{t.footer.social}</h4>
             <div className="space-y-3">
-              <a href="https://wa.me/8618240029066" target="_blank" rel="noopener noreferrer" className="block text-white/60 hover:text-[#25D366] transition-colors text-xs font-bold uppercase tracking-wider">
+              <a href="https://wa.me/8615119021614" target="_blank" rel="noopener noreferrer" className="block text-white/60 hover:text-[#25D366] transition-colors text-xs font-bold uppercase tracking-wider">
                 WhatsApp
               </a>
               <div className="text-white/60 text-xs font-bold uppercase tracking-wider">
-                <span className="hover:text-[#07C160] transition-colors cursor-pointer">WeChat:</span> John_9066
+                <span className="hover:text-[#07C160] transition-colors cursor-pointer">WeChat:</span> MK_9066
               </div>
               <a href={`mailto:${t.contact.emailVal}`} className="block text-white/60 hover:text-secondary transition-colors text-xs font-bold uppercase tracking-wider">
                 Email

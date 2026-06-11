@@ -12,7 +12,7 @@ export default function FloatingButtons() {
     <div className="fixed bottom-8 right-8 z-50 flex flex-col space-y-4">
       {/* Call Button */}
       <a
-        href="tel:+8618240029066"
+        href="tel:+8615119021614"
         className="w-14 h-14 bg-primary text-secondary rounded-xl flex items-center justify-center shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:bg-[#0B2D5C]/90 hover:-translate-y-1 transition-all group relative border border-secondary/20"
         aria-label="Direct Call"
       >
@@ -24,7 +24,7 @@ export default function FloatingButtons() {
 
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/8618240029066"
+        href="https://wa.me/8615119021614"
         target="_blank"
         rel="noopener noreferrer"
         className="w-14 h-14 bg-[#25D366] text-white rounded-xl flex items-center justify-center shadow-[0_8px_30px_rgba(37,211,102,0.3)] hover:bg-[#20ba56] hover:-translate-y-1 transition-all group relative"

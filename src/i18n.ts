@@ -24,7 +24,7 @@ export const translations = {
       p2: "Whether you need a single product sourced from China or a full end-to-end procurement solution, our team manages every step according to your business requirements.",
       ceoQuote: "\"Our mission is to make doing business with China simple, transparent, and profitable for our clients worldwide.\"",
       ceoTitle: "CEO",
-      ceoName: "ADIL MALIK",
+      ceoName: "John Davis",
     },
     services: {
       title: "Our Services",
@@ -57,6 +57,32 @@ export const translations = {
         { title: "Global Shipping Network", description: "Worldwide delivery support." },
         { title: "One-Stop Solution", description: "From sourcing to final delivery." },
         { title: "Personalized Service", description: "Customized solutions for every client." }
+      ]
+    },
+    faq: {
+      title: "Frequently Asked Questions",
+      subtitle: "Common answers to help you understand our process.",
+      items: [
+        {
+          question: "What types of products can you source from China?",
+          answer: "We can source almost any product, from electronics and machinery to textiles and construction materials. We have an extensive network of verified factories across various industries."
+        },
+        {
+          question: "How long does shipping usually take?",
+          answer: "Shipping timelines depend on the method chosen. Air freight typically takes 5-10 days, while sea freight can take 20-40 days depending on the destination port."
+        },
+        {
+          question: "What are your payment terms?",
+          answer: "Payment terms vary based on the order and supplier. Generally, a 30% deposit is required to start production, with the remaining 70% balance due after quality inspection and before shipment."
+        },
+        {
+          question: "Do you provide quality inspection reports?",
+          answer: "Yes, we conduct rigorous pre-shipment inspections and provide detailed reports with photos and videos to ensure your products meet your exact specifications."
+        },
+        {
+          question: "Can you help with custom packaging and branding (OEM/ODM)?",
+          answer: "Absolutely. We specialize in OEM and ODM services, helping you customize products and packaging to build your own brand identity."
+        }
       ]
     },
     process: {
@@ -97,13 +123,13 @@ export const translations = {
       subtitle: "Ready to start? Reach out to us today.",
       company: "Guangzhou Mu Kuang Trading Co., Ltd.",
       companyCn: "广州牧匡贸易有限公司",
-      ceo: "CEO: ADIL MALIK",
+      ceo: "CEO: John Davis",
       phone: "Phone / WhatsApp",
-      phoneVal: "+86 182 4002 9066",
+      phoneVal: "+86 151 1902 1614",
       wechat: "WeChat",
-      wechatVal: "John_9066",
+      wechatVal: "MK_9066",
       email: "Email",
-      emailVal: "18240029066@163.com",
+      emailVal: "CEO@mukuang.online",
       address: "Address",
       addressVal: "Room A19, G1-G6, No. 9, 10 Yongtai West, Xianlie Middle Road, Yuexiu District, Guangzhou",
       form: {
@@ -144,7 +170,7 @@ export const translations = {
       p2: "无论您是从中国采购单一产品，还是需要全面的端到端采购解决方案，我们的团队都会根据您的业务需求管理每个环节。",
       ceoQuote: "\"我们的使命是让全球客户与中国的贸易变得简单、透明且有利可图。\"",
       ceoTitle: "首席执行官",
-      ceoName: "ADIL MALIK",
+      ceoName: "John Davis",
     },
     services: {
       title: "我们的服务",
@@ -177,6 +203,32 @@ export const translations = {
         { title: "全球物流网络", description: "支持全球送达服务。" },
         { title: "一站式解决方案", description: "从采购到最终交付。" },
         { title: "个性化服务", description: "为每位客户提供定制解决方案。" }
+      ]
+    },
+    faq: {
+      title: "常见问题",
+      subtitle: "帮助您了解我们的流程的常见解答。",
+      items: [
+        {
+          question: "您可以从中国采购哪些类型的产品？",
+          answer: "我们几乎可以采购任何产品，从电子产品和机械到纺织品和建筑材料。我们在各个行业拥有广泛的经过验证的工厂网络。"
+        },
+        {
+          question: "运输通常需要多长时间？",
+          answer: "运输时间取决于所选的运输方式。空运通常需要 5-10 天，而海运可能需要 20-40 天，具体取决于目的港。"
+        },
+        {
+          question: "你们的付款条件是什么？",
+          answer: "付款条件因订单和供应商而异。通常，开始生产需要 30% 的定金，剩余的 70% 尾款在质量检查后和发货前支付。"
+        },
+        {
+          question: "你们提供质量检验报告吗？",
+          answer: "是的，我们进行严格的装运前检验，并提供包含照片和视频的详细报告，以确保您的产品完全符合您的规格。"
+        },
+        {
+          question: "你们能帮助定制包装和品牌推广（OEM/ODM）吗？",
+          answer: "绝对可以。我们专攻 OEM 和 ODM 服务，帮助您定制产品和包装，以建立您自己的品牌形象。"
+        }
       ]
     },
     process: {
@@ -217,13 +269,13 @@ export const translations = {
       subtitle: "准备开始了？立即联系我们。",
       company: "广州牧匡贸易有限公司",
       companyCn: "",
-      ceo: "首席执行官: ADIL MALIK",
+      ceo: "首席执行官: John Davis",
       phone: "电话 / WhatsApp",
-      phoneVal: "+86 182 4002 9066",
+      phoneVal: "+86 151 1902 1614",
       wechat: "微信",
-      wechatVal: "John_9066",
+      wechatVal: "MK_9066",
       email: "电子邮件",
-      emailVal: "18240029066@163.com",
+      emailVal: "CEO@mukuang.online",
       address: "地址",
       addressVal: "广州市越秀区先烈中路永泰西约9、10号自编G1-G6房A19",
       form: {
@@ -264,7 +316,7 @@ export const translations = {
       p2: "چاہے آپ کو چین سے ایک ہی پروڈکٹ کی ضرورت ہو یا مکمل اینڈ ٹو اینڈ پروکیورمنٹ حل کی، ہماری ٹیم آپ کی کاروباری ضروریات کے مطابق ہر قدم کا انتظام کرتی ہے۔",
       ceoQuote: "\"ہمارا مشن دنیا بھر میں اپنے کلائنٹس کے لیے چین کے ساتھ کاروبار کو آسان، شفاف اور منافع بخش بنانا ہے۔\"",
       ceoTitle: "سی ای او",
-      ceoName: "عادل ملک (ADIL MALIK)",
+      ceoName: "جان ڈیوس (John Davis)",
     },
     services: {
       title: "ہماری خدمات",
@@ -297,6 +349,32 @@ export const translations = {
         { title: "عالمی شپنگ نیٹ ورک", description: "دنیا بھر میں ترسیل کی حمایت۔" },
         { title: "ون اسٹاپ حل", description: "سورسنگ سے لے کر حتمی ترسیل تک۔" },
         { title: "ذاتی خدمات", description: "ہر کلائنٹ کے لیے اپنی مرضی کے مطابق حل۔" }
+      ]
+    },
+    faq: {
+      title: "اکثر پوچھے گئے سوالات",
+      subtitle: "ہمارے طریقہ کار کو سمجھنے میں آپ کی مدد کے لیے عام جوابات۔",
+      items: [
+        {
+          question: "آپ چین سے کس قسم کی مصنوعات حاصل کر سکتے ہیں؟",
+          answer: "ہم الیکٹرانکس اور مشینری سے لے کر ٹیکسٹائل اور تعمیراتی مواد تک تقریباً کوئی بھی پروڈکٹ حاصل کر سکتے ہیں۔ ہمارے پاس مختلف صنعتوں میں تصدیق شدہ فیکٹریوں کا ایک وسیع نیٹ ورک ہے۔"
+        },
+        {
+          question: "شپنگ میں عام طور پر کتنا وقت لگتا ہے؟",
+          answer: "شپنگ کا وقت منتخب کردہ طریقہ پر منحصر ہے۔ ہوائی جہاز کے ذریعے عام طور پر 5-10 دن لگتے ہیں، جبکہ سمندری جہاز کے ذریعے منزل کی بندرگاہ کے لحاظ سے 20-40 دن لگ سکتے ہیں۔"
+        },
+        {
+          question: "آپ کی ادائیگی کی شرائط کیا ہیں؟",
+          answer: "ادائیگی کی شرائط آرڈر اور سپلائر کی بنیاد پر مختلف ہوتی ہیں۔ عام طور پر، پیداوار شروع کرنے کے لیے 30% ڈپازٹ کی ضرورت ہوتی ہے، باقی 70% بیلنس کوالٹی انسپکشن کے بعد اور شپمنٹ سے پہلے ادا کرنا ہوتا ہے۔"
+        },
+        {
+          question: "کیا آپ کوالٹی انسپکشن کی رپورٹس فراہم کرتے ہیں؟",
+          answer: "جی ہاں، ہم شپمنٹ سے پہلے سخت معائنہ کرتے ہیں اور تصاویر اور ویڈیوز کے ساتھ تفصیلی رپورٹس فراہم کرتے ہیں تاکہ یہ یقینی بنایا جا سکے کہ آپ کی مصنوعات آپ کی درست خصوصیات پر پوری اترتی ہیں۔"
+        },
+        {
+          question: "کیا آپ اپنی مرضی کے مطابق پیکیجنگ اور برانڈنگ (OEM/ODM) میں مدد کر سکتے ہیں؟",
+          answer: "بالکل۔ ہم OEM اور ODM خدمات میں مہارت رکھتے ہیں، اور آپ کو اپنی برانڈ کی شناخت بنانے کے لیے مصنوعات اور پیکیجنگ کو اپنی مرضی کے مطابق بنانے میں مدد کرتے ہیں۔"
+        }
       ]
     },
     process: {
@@ -337,13 +415,13 @@ export const translations = {
       subtitle: "شروع کرنے کے لیے تیار ہیں؟ آج ہی ہم تک پہنچیں۔",
       company: "Guangzhou Mu Kuang Trading Co., Ltd.",
       companyCn: "广州牧匡贸易有限公司",
-      ceo: "سی ای او: عادل ملک (ADIL MALIK)",
+      ceo: "سی ای او: جان ڈیوس (John Davis)",
       phone: "فون / واٹس ایپ",
-      phoneVal: "+86 182 4002 9066",
+      phoneVal: "+86 151 1902 1614",
       wechat: "وی چیٹ",
-      wechatVal: "John_9066",
+      wechatVal: "MK_9066",
       email: "ای میل",
-      emailVal: "18240029066@163.com",
+      emailVal: "CEO@mukuang.online",
       address: "پتہ",
       addressVal: "Room A19, G1-G6, No. 9, 10 Yongtai West, Xianlie Middle Road, Yuexiu District, Guangzhou",
       form: {
