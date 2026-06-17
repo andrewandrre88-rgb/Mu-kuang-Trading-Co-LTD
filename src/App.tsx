@@ -4,37 +4,30 @@
  */
 
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { I18nProvider } from './i18n-context';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Services from './components/Services';
-import WhyChooseUs from './components/WhyChooseUs';
-import Process from './components/Process';
-import FAQ from './components/FAQ';
-import Testimonials from './components/Testimonials';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FloatingButtons from './components/FloatingButtons';
+import Home from './pages/Home';
+import ProductPage from './pages/ProductPage';
 
 export default function App() {
   return (
     <I18nProvider>
-      <div className="min-h-screen bg-[var(--color-background)] font-sans antialiased text-gray-900 selection:bg-secondary selection:text-white flex flex-col">
-        <Header />
-        <main className="flex-grow">
-          <Hero />
-          <About />
-          <Services />
-          <WhyChooseUs />
-          <Process />
-          <FAQ />
-          <Testimonials />
-          <Contact />
-        </main>
-        <Footer />
-        <FloatingButtons />
-      </div>
+      <Router>
+        <div className="min-h-screen bg-[var(--color-background)] font-sans antialiased text-gray-900 selection:bg-secondary selection:text-white flex flex-col">
+          <Header />
+          <main className="flex-grow">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/product/:id" element={<ProductPage />} />
+            </Routes>
+          </main>
+          <Footer />
+          <FloatingButtons />
+        </div>
+      </Router>
     </I18nProvider>
   );
 }

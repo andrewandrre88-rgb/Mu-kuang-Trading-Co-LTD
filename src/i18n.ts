@@ -4,6 +4,7 @@ export const translations = {
   en: {
     nav: {
       home: "Home",
+      products: "Products",
       about: "About Us",
       services: "Services",
       process: "Process",
@@ -25,6 +26,11 @@ export const translations = {
       ceoQuote: "\"Our mission is to make doing business with China simple, transparent, and profitable for our clients worldwide.\"",
       ceoTitle: "CEO",
       ceoName: "John Davis",
+    },
+    products: {
+      title: "Our Products",
+      subtitle: "A showcase of quality products we've successfully sourced and exported.",
+      viewMore: "View Full Gallery"
     },
     services: {
       title: "Our Services",
@@ -150,6 +156,7 @@ export const translations = {
   zh: {
     nav: {
       home: "首页",
+      products: "产品中心",
       about: "关于我们",
       services: "我们的服务",
       process: "合作流程",
@@ -171,6 +178,11 @@ export const translations = {
       ceoQuote: "\"我们的使命是让全球客户与中国的贸易变得简单、透明且有利可图。\"",
       ceoTitle: "首席执行官",
       ceoName: "John Davis",
+    },
+    products: {
+      title: "我们的产品",
+      subtitle: "我们成功采购和出口的高质量产品展示。",
+      viewMore: "查看完整图库"
     },
     services: {
       title: "我们的服务",
@@ -296,6 +308,7 @@ export const translations = {
   ur: {
     nav: {
       home: "ہوم",
+      products: "مصنوعات",
       about: "ہمارے بارے میں",
       services: "خدمات",
       process: "طریقہ کار",
@@ -317,6 +330,11 @@ export const translations = {
       ceoQuote: "\"ہمارا مشن دنیا بھر میں اپنے کلائنٹس کے لیے چین کے ساتھ کاروبار کو آسان، شفاف اور منافع بخش بنانا ہے۔\"",
       ceoTitle: "سی ای او",
       ceoName: "جان ڈیوس (John Davis)",
+    },
+    products: {
+      title: "ہماری مصنوعات",
+      subtitle: "ان اعلیٰ معیار کی مصنوعات کا ایک نمونہ جو ہم نے کامیابی کے ساتھ حاصل کی ہیں۔",
+      viewMore: "مکمل گیلری دیکھیں"
     },
     services: {
       title: "ہماری خدمات",
