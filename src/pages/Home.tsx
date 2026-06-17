@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Products from '../components/Products';
+import Facility from '../components/Facility';
 import Services from '../components/Services';
 import WhyChooseUs from '../components/WhyChooseUs';
 import Process from '../components/Process';
@@ -30,6 +31,7 @@ export default function Home() {
       <Hero />
       <About />
       <Products />
+      <Facility />
       <Services />
       <WhyChooseUs />
       <Process />

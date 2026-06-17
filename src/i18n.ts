@@ -5,6 +5,7 @@ export const translations = {
     nav: {
       home: "Home",
       products: "Motorcycles",
+      facility: "Facility",
       about: "About Us",
       services: "Services",
       process: "Process",
@@ -31,6 +32,10 @@ export const translations = {
       title: "In-Stock Motorcycles",
       subtitle: "A showcase of our high-quality motorcycles ready for immediate export.",
       viewMore: "View Full Catalog"
+    },
+    facility: {
+      title: "Our Facilities",
+      subtitle: "State-of-the-Art Operations ensuring top quality.",
     },
     services: {
       title: "Our Services",
@@ -157,6 +162,7 @@ export const translations = {
     nav: {
       home: "首页",
       products: "摩托车展示",
+      facility: "我们的设施",
       about: "关于我们",
       services: "我们的服务",
       process: "合作流程",
@@ -183,6 +189,10 @@ export const translations = {
       title: "现车展示",
       subtitle: "我们提供可立即出口的高品质摩托车现车。",
       viewMore: "查看完整目录"
+    },
+    facility: {
+      title: "我们的设施",
+      subtitle: "最先进的运营确保顶级品质。",
     },
     services: {
       title: "我们的服务",
@@ -309,6 +319,7 @@ export const translations = {
     nav: {
       home: "ہوم",
       products: "موٹر سائیکلیں",
+      facility: "سہولت",
       about: "ہمارے بارے میں",
       services: "خدمات",
       process: "طریقہ کار",
@@ -335,6 +346,10 @@ export const translations = {
       title: "اسٹاک میں موٹر سائیکلیں",
       subtitle: "فوری برآمد کے لیے تیار ہماری اعلیٰ معیار کی موٹر سائیکلوں کی نمائش۔",
       viewMore: "مکمل کیٹلاگ دیکھیں"
+    },
+    facility: {
+      title: "ہماری سہولیات",
+      subtitle: "اعلیٰ معیار کو یقینی بنانے والے جدید ترین آپریشنز۔",
     },
     services: {
       title: "ہماری خدمات",
