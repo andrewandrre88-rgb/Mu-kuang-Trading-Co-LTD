@@ -4,7 +4,7 @@ export const translations = {
   en: {
     nav: {
       home: "Home",
-      products: "Products",
+      products: "Motorcycles",
       about: "About Us",
       services: "Services",
       process: "Process",
@@ -28,9 +28,9 @@ export const translations = {
       ceoName: "John Davis",
     },
     products: {
-      title: "Our Products",
-      subtitle: "A showcase of quality products we've successfully sourced and exported.",
-      viewMore: "View Full Gallery"
+      title: "In-Stock Motorcycles",
+      subtitle: "A showcase of our high-quality motorcycles ready for immediate export.",
+      viewMore: "View Full Catalog"
     },
     services: {
       title: "Our Services",
@@ -156,7 +156,7 @@ export const translations = {
   zh: {
     nav: {
       home: "首页",
-      products: "产品中心",
+      products: "摩托车展示",
       about: "关于我们",
       services: "我们的服务",
       process: "合作流程",
@@ -180,9 +180,9 @@ export const translations = {
       ceoName: "John Davis",
     },
     products: {
-      title: "我们的产品",
-      subtitle: "我们成功采购和出口的高质量产品展示。",
-      viewMore: "查看完整图库"
+      title: "现车展示",
+      subtitle: "我们提供可立即出口的高品质摩托车现车。",
+      viewMore: "查看完整目录"
     },
     services: {
       title: "我们的服务",
@@ -308,7 +308,7 @@ export const translations = {
   ur: {
     nav: {
       home: "ہوم",
-      products: "مصنوعات",
+      products: "موٹر سائیکلیں",
       about: "ہمارے بارے میں",
       services: "خدمات",
       process: "طریقہ کار",
@@ -332,9 +332,9 @@ export const translations = {
       ceoName: "جان ڈیوس (John Davis)",
     },
     products: {
-      title: "ہماری مصنوعات",
-      subtitle: "ان اعلیٰ معیار کی مصنوعات کا ایک نمونہ جو ہم نے کامیابی کے ساتھ حاصل کی ہیں۔",
-      viewMore: "مکمل گیلری دیکھیں"
+      title: "اسٹاک میں موٹر سائیکلیں",
+      subtitle: "فوری برآمد کے لیے تیار ہماری اعلیٰ معیار کی موٹر سائیکلوں کی نمائش۔",
+      viewMore: "مکمل کیٹلاگ دیکھیں"
     },
     services: {
       title: "ہماری خدمات",

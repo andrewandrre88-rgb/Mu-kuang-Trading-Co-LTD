@@ -41,7 +41,7 @@ export default function Products() {
               >
                 <img 
                   src={product.src} 
-                  alt={`Product ${product.id}`} 
+                  alt={`Motorcycle ${product.id}`} 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   loading="lazy"
                   referrerPolicy="no-referrer"

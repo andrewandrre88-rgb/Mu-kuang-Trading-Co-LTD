@@ -29,7 +29,7 @@ export default function ProductPage() {
         <div className="mb-8">
           <Link to="/#products" className="inline-flex items-center text-sm font-medium text-gray-500 hover:text-primary transition-colors">
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Back to Products
+            Back to Motorcycles
           </Link>
         </div>
 
@@ -43,7 +43,7 @@ export default function ProductPage() {
           >
             <img 
               src={product.src} 
-              alt={`Product ${product.id}`} 
+              alt={`Motorcycle ${product.id}`} 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
             />
@@ -58,20 +58,20 @@ export default function ProductPage() {
           >
             <div className="flex items-center space-x-2 mb-4">
               <div className="h-[1px] w-8 bg-secondary"></div>
-              <span className="text-secondary font-bold uppercase tracking-widest text-[10px]">MU KUANG PRODUCT</span>
+              <span className="text-secondary font-bold uppercase tracking-widest text-[10px]">MU KUANG MOTORCYCLE</span>
             </div>
             <h1 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Product Item #{product.id}
+              Motorcycle Model #{product.id}
             </h1>
             <p className="text-gray-600 mb-8 leading-relaxed">
-              We specialize in sourcing, verifying, and exporting high-quality products from China to destinations worldwide. 
-              Contact us for detailed specifications, minimum order quantities (MOQ), and current pricing for this item.
+              We have this high-quality motorcycle in stock and ready for immediate export from China to destinations worldwide. 
+              Contact us for detailed specifications, shipping arrangements, and current pricing for this model.
             </p>
             
             <div className="space-y-4 mb-10">
               <div className="flex items-center justify-between border-b border-gray-100 py-3">
                 <span className="text-sm text-gray-500 uppercase font-semibold">Availability</span>
-                <span className="text-sm font-medium text-primary">In Stock / Sourcing</span>
+                <span className="text-sm font-medium text-primary">In Stock / Ready to Ship</span>
               </div>
               <div className="flex items-center justify-between border-b border-gray-100 py-3">
                 <span className="text-sm text-gray-500 uppercase font-semibold">Origin</span>
@@ -79,13 +79,13 @@ export default function ProductPage() {
               </div>
               <div className="flex items-center justify-between border-b border-gray-100 py-3">
                 <span className="text-sm text-gray-500 uppercase font-semibold">Customization</span>
-                <span className="text-sm font-medium text-primary">OEM / ODM Available</span>
+                <span className="text-sm font-medium text-primary">Contact for details</span>
               </div>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
-                href={`https://wa.me/8615119021614?text=Hello,%20I%20am%20interested%20in%20Product%20Item%20%23${product.id}`}
+                href={`https://wa.me/8615119021614?text=Hello,%20I%20am%20interested%20in%20Motorcycle%20Model%20%23${product.id}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#25D366] hover:bg-[#20ba56] text-white px-8 py-4 text-xs font-bold uppercase tracking-widest transition-all flex items-center justify-center gap-2"
