@@ -7,7 +7,6 @@ export const productImages = [
   "mmexport1781702890365.jpg",
   "mmexport1781702898651.jpg",
   "mmexport1781702904079.jpg",
-  "mmexport1781702910003.jpg",
   "mmexport1781702917989.jpg",
   "mmexport1781702923892.jpg",
   "mmexport1781702930656.jpg",
