@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import FloatingButtons from './components/FloatingButtons';
 import Home from './pages/Home';
 import ProductPage from './pages/ProductPage';
+import CompanyProfilePage from './pages/CompanyProfilePage';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/product/:id" element={<ProductPage />} />
+              <Route path="/company-profile" element={<CompanyProfilePage />} />
             </Routes>
           </main>
           <Footer />

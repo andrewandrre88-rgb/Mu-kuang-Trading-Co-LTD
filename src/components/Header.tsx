@@ -2,6 +2,7 @@ import { Menu, X, Globe } from 'lucide-react';
 import React, { useState, useEffect } from 'react';
 import { useI18n } from '../i18n-context';
 import { motion, AnimatePresence } from 'motion/react';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -17,14 +18,15 @@ export default function Header() {
   }, []);
 
   const navLinks = [
-    { name: t.nav.home, href: '#home' },
-    { name: t.nav.about, href: '#about' },
-    { name: t.nav.products, href: '#products' },
-    { name: t.nav.facility, href: '#facility' },
-    { name: t.nav.services, href: '#services' },
-    { name: t.nav.process, href: '#process' },
-    { name: t.nav.whyUs, href: '#why-us' },
-    { name: t.nav.contact, href: '#contact' },
+    { name: t.nav.home, href: '/#home' },
+    { name: t.nav.profile, href: '/company-profile' },
+    { name: t.nav.about, href: '/#about' },
+    { name: t.nav.products, href: '/#products' },
+    { name: t.nav.facility, href: '/#facility' },
+    { name: t.nav.services, href: '/#services' },
+    { name: t.nav.process, href: '/#process' },
+    { name: t.nav.whyUs, href: '/#why-us' },
+    { name: t.nav.contact, href: '/#contact' },
   ];
 
   return (
@@ -35,25 +37,25 @@ export default function Header() {
     >
       <div className="container mx-auto px-4 md:px-10 flex justify-between items-center w-full">
         {/* Logo */}
-        <a href="#home" className="flex flex-col">
+        <Link to="/#home" className="flex flex-col">
           <span className={`text-secondary font-bold text-xl md:text-2xl tracking-wider leading-none`}>
             MU KUANG
           </span>
           <span className={`text-white text-[10px] md:text-xs tracking-[0.2em] mt-1`}>
             GUANGZHOU TRADING CO., LTD.
           </span>
-        </a>
+        </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden lg:flex gap-8 text-white/80 text-sm font-medium">
           {navLinks.map((link) => (
-            <a
-              key={link.name}
-              href={link.href}
+            <Link
+              key={link.href}
+              to={link.href}
               className="hover:text-white transition-colors"
             >
               {link.name}
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -66,12 +68,12 @@ export default function Header() {
             <span>|</span>
             <span className={language === 'ur' ? 'text-white' : 'hover:text-white transition-colors'} onClick={() => setLanguage('ur')}>UR</span>
           </div>
-          <a
-            href="#contact"
+          <Link
+            to="/#contact"
             className="bg-secondary text-white px-5 py-2 text-xs font-bold uppercase tracking-widest hover:bg-[#b88d3a] transition-colors"
           >
             Consultation
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Toggle */}
@@ -104,14 +106,14 @@ export default function Header() {
           >
             <ul className="flex flex-col space-y-4">
               {navLinks.map((link) => (
-                <li key={link.name}>
-                  <a
-                    href={link.href}
+                <li key={link.href}>
+                  <Link
+                    to={link.href}
                     onClick={() => setIsMobileMenuOpen(false)}
                     className="block text-white font-medium text-lg border-b border-white/10 pb-2"
                   >
                     {link.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

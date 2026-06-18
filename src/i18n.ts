@@ -4,6 +4,7 @@ export const translations = {
   en: {
     nav: {
       home: "Home",
+      profile: "Company Profile",
       products: "Motorcycles",
       facility: "Facility",
       about: "About Us",
@@ -27,6 +28,16 @@ export const translations = {
       ceoQuote: "\"Our mission is to make doing business with China simple, transparent, and profitable for our clients worldwide.\"",
       ceoTitle: "CEO",
       ceoName: "John Davis",
+    },
+    companyProfile: {
+      title: "Company Profile",
+      paragraphs: [
+        "Founded in 2012, Guangzhou Mukuang Trading Co., Ltd. is a professional trading company specializing in the export of motorcycle parts and accessories, with independent import and export rights. Based in Guangzhou, China, we leverage the advantages of China's mature motorcycle supply chain to provide global customers with high-quality products and reliable sourcing solutions.",
+        "Over the years, through honest operation and continuous development, Mukuang has established long-term and stable business relationships with customers from various countries and regions around the world. We continuously integrate high-quality resources from reliable manufacturers and provide a wide range of motorcycle components and accessories for distributors, wholesalers, retailers, and business partners worldwide.",
+        "Since its establishment, the company has always adhered to the principles of integrity, customer focus, quality assurance, and win-win cooperation. We strictly control product quality, optimize supply chain management, and provide professional export services to meet the diverse needs of our customers.",
+        "Following international trade practices, Mukuang is committed to the principles of contract compliance, business credibility, excellent service, and mutual benefits. Through stable product supply, efficient communication, and professional support, we aim to build long-term partnerships with customers around the world.",
+        "In the future, Guangzhou Mukuang Trading Co., Ltd. will continue to utilize China's manufacturing advantages and supply chain resources to deliver better products and services, working together with global partners to create a successful future."
+      ]
     },
     products: {
       title: "In-Stock Motorcycles",
@@ -161,6 +172,7 @@ export const translations = {
   zh: {
     nav: {
       home: "首页",
+      profile: "公司简介",
       products: "摩托车展示",
       facility: "我们的设施",
       about: "关于我们",
@@ -184,6 +196,16 @@ export const translations = {
       ceoQuote: "\"我们的使命是让全球客户与中国的贸易变得简单、透明且有利可图。\"",
       ceoTitle: "首席执行官",
       ceoName: "John Davis",
+    },
+    companyProfile: {
+      title: "公司简介",
+      paragraphs: [
+        "广州市牧匡贸易有限公司成立于 2012 年，是一家专业从事摩托车零部件出口的贸易公司，拥有自主进出口权。我们立足中国广州，充分利用中国成熟的摩托车供应链优势，为全球客户提供高品质的产品和可靠的采购解决方案。",
+        "多年来，通过诚信经营和不断的发展，牧匡已与全球各个国家和地区的客户建立了长期稳定的业务关系。我们不断整合来自可靠制造商的优质资源，为全球经销商、批发商和零售商提供多种多样的摩托车零部件。",
+        "公司自成立以来，始终坚持诚信、客户至上、质量保证、合作共赢的原则。我们严格控制产品质量，优化供应链管理，提供专业的出口服务，满足客户的多样化需求。",
+        "遵循国际贸易惯例，牧匡致力于守合同、重信用、提供优质服务及实现互利共赢。通过稳定的产品供应和高效的沟通支持，我们立志与全球客户建立长久的合作伙伴关系。",
+        "未来，广州市牧匡贸易有限公司将继续利用中国的制造优势和供应链资源，提供更优质的产品和服务，与全球伙伴携手共创成功美好的未来。"
+      ]
     },
     products: {
       title: "现车展示",
@@ -318,6 +340,7 @@ export const translations = {
   ur: {
     nav: {
       home: "ہوم",
+      profile: "کمپنی پروفائل",
       products: "موٹر سائیکلیں",
       facility: "سہولت",
       about: "ہمارے بارے میں",
@@ -341,6 +364,16 @@ export const translations = {
       ceoQuote: "\"ہمارا مشن دنیا بھر میں اپنے کلائنٹس کے لیے چین کے ساتھ کاروبار کو آسان، شفاف اور منافع بخش بنانا ہے۔\"",
       ceoTitle: "سی ای او",
       ceoName: "جان ڈیوس (John Davis)",
+    },
+    companyProfile: {
+      title: "کمپنی پروفائل",
+      paragraphs: [
+        "2012 میں قائم ہونے والی، Guangzhou Mukuang Trading Co., Ltd. ایک پیشہ ور تجارتی کمپنی ہے جو موٹر سائیکل کے پرزوں اور لوازمات کی برآمد میں مہارت رکھتی ہے، جس کے پاس آزاد درآمد اور برآمد کے حقوق ہیں۔ گوانگزو، چین میں واقع، ہم چین کی پختہ موٹر سائیکل سپلائی چین کے فوائد سے فائدہ اٹھاتے ہوئے عالمی صارفین کو اعلٰی معیار کی مصنوعات اور قابل اعتماد سورسنگ کے حل فراہم کرتے ہیں۔",
+        "گزشتہ برسوں کے دوران، ایماندارانہ آپریشنز اور مسلسل ترقی کے ذریعے، Mukuang نے دنیا بھر کے مختلف ممالک اور خطوں کے صارفین کے ساتھ طویل مدتی اور مستحکم کاروباری تعلقات قائم کیے ہیں۔ ہم مسلسل قابل اعتماد مینوفیکچررز سے اعلیٰ معیار کے وسائل کو شامل کرتے ہیں اور دنیا بر کے تقسیم کاروں اور دکانداروں کے لیے موٹر سائیکل کے اجزاء کی ایک وسیع رینج فراہم کرتے ہیں۔",
+        "اپنے قیام کے بعد سے، کمپنی نے ہمیشہ دیانتداری، گاہکوں پر توجہ، معیار کی یقین دہانی، اور باہمی تعاون کے اصولوں پر عمل کیا ہے۔ ہم مصنوعات کے معیار کو سختی سے کنٹرول کرتے ہیں، سپلائی چین مینجمنٹ کو بہتر بناتے ہیں، اور اپنے صارفین کی متنوع ضروریات کو پورا کرنے کے لیے پیشہ ورانہ برآمدی خدمات فراہم کرتے ہیں۔",
+        "بین الاقوامی تجارتی طریق کار پر عمل کرتے ہوئے، Mukuang معاہدے کی پابندی، کاروباری ساکھ، بہترین سروس اور باہمی فوائد کے اصولوں کے پابند ہے۔ مستحکم مصنوعات کی فراہمی، موثر مواصلات، اور پیشہ ورانہ تعاون کے ذریعے، ہم دنیا بھر کے صارفین کے ساتھ طویل مدتی شراکت داری قائم کرنے کا ارادہ رکھتے ہیں۔",
+        "مستقبل میں، Guangzhou Mukuang Trading Co., Ltd. چین کے مینوفیکچرنگ فوائد اور سپلائی چین کے وسائل کو استعمال کرتے ہوئے مزید بہتر مصنوعات اور خدمات فراہم کرے گی، اور عالمی شراکت داروں کے ساتھ مل کر ایک کامیاب مستقبل تعمیر کرے گی۔"
+      ]
     },
     products: {
       title: "اسٹاک میں موٹر سائیکلیں",

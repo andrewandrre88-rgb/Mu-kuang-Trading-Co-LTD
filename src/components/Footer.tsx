@@ -1,5 +1,6 @@
 import React from 'react';
 import { useI18n } from '../i18n-context';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   const { t } = useI18n();
@@ -21,11 +22,12 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-[10px] uppercase tracking-widest text-secondary mb-6">{t.footer.quickLinks}</h4>
             <ul className="space-y-3">
-              <li><a href="#home" className="text-white/60 hover:text-white transition-colors text-xs font-bold uppercase tracking-wider">{t.nav.home}</a></li>
-              <li><a href="#about" className="text-white/60 hover:text-white transition-colors text-xs font-bold uppercase tracking-wider">{t.nav.about}</a></li>
-              <li><a href="#services" className="text-white/60 hover:text-white transition-colors text-xs font-bold uppercase tracking-wider">{t.nav.services}</a></li>
-              <li><a href="#process" className="text-white/60 hover:text-white transition-colors text-xs font-bold uppercase tracking-wider">{t.nav.process}</a></li>
-              <li><a href="#contact" className="text-white/60 hover:text-white transition-colors text-xs font-bold uppercase tracking-wider">{t.nav.contact}</a></li>
+              <li><Link to="/#home" className="text-white/60 hover:text-white transition-colors text-xs font-bold uppercase tracking-wider">{t.nav.home}</Link></li>
+              <li><Link to="/company-profile" className="text-white/60 hover:text-white transition-colors text-xs font-bold uppercase tracking-wider">{t.nav.profile}</Link></li>
+              <li><Link to="/#about" className="text-white/60 hover:text-white transition-colors text-xs font-bold uppercase tracking-wider">{t.nav.about}</Link></li>
+              <li><Link to="/#services" className="text-white/60 hover:text-white transition-colors text-xs font-bold uppercase tracking-wider">{t.nav.services}</Link></li>
+              <li><Link to="/#process" className="text-white/60 hover:text-white transition-colors text-xs font-bold uppercase tracking-wider">{t.nav.process}</Link></li>
+              <li><Link to="/#contact" className="text-white/60 hover:text-white transition-colors text-xs font-bold uppercase tracking-wider">{t.nav.contact}</Link></li>
             </ul>
           </div>
 
